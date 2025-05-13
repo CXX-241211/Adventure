@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci3rybjmeux0c"]
+
+[ext_resource type="Script" uid="uid://cus83awsgieka" path="res://c_SceneManage/portal.gd" id="1_hhjgk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lofyj"]
+size = Vector2(17, 8.625)
+
+[node name="portal" type="Area2D"]
+script = ExtResource("1_hhjgk")
+next_scene = "res://b_GameScenes/level_1.tscn"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_lofyj")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

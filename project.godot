@@ -13,14 +13,22 @@ config_version=5
 config/name="Adventure"
 run/main_scene="uid://dk6tqn74nkwcq"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+
+[autoload]
+
+SceneManager="*res://c_SceneManage/scene_manager.tscn"
+
+[display]
+
+window/size/sharp_corners=true
+window/stretch/mode="canvas_items"
 
 [file_customization]
 
 folder_colors={
-"res://a_Scenes/": "yellow",
+"res://a_Actor/": "yellow",
 "res://b_GameScenes/": "blue",
-"res://n_Ninja Adventure - Asset Pack/": "gray"
+"res://n_assets/n_Ninja Adventure - Asset Pack/": "gray"
 }
 
 [input]
