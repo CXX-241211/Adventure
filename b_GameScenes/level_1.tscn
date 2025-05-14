@@ -1,11 +1,11 @@
 [gd_scene load_steps=15 format=4 uid="uid://dkednrfyd84uv"]
 
 [ext_resource type="PackedScene" uid="uid://ba3lai4vujp4" path="res://a_Actor/player/player.tscn" id="1_hf7ew"]
-[ext_resource type="Texture2D" uid="uid://bteskuo2knaxl" path="res://n_assets/n_Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png" id="2_jbuhg"]
+[ext_resource type="Texture2D" uid="uid://bteskuo2knaxl" path="res://n_assets/Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png" id="2_jbuhg"]
 [ext_resource type="PackedScene" uid="uid://ci3rybjmeux0c" path="res://c_SceneManage/portal.tscn" id="2_ol42h"]
-[ext_resource type="Texture2D" uid="uid://d4guk8l0wayhq" path="res://n_assets/n_Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/Elements.png" id="3_8mke5"]
-[ext_resource type="Texture2D" uid="uid://brr1xahy707ff" path="res://n_assets/n_Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetWallSimple.png" id="3_ol42h"]
-[ext_resource type="Texture2D" uid="uid://cl2t1cf1wkix" path="res://n_assets/n_Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png" id="4_4co21"]
+[ext_resource type="Texture2D" uid="uid://d4guk8l0wayhq" path="res://n_assets/Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/Elements.png" id="3_8mke5"]
+[ext_resource type="Texture2D" uid="uid://brr1xahy707ff" path="res://n_assets/Ninja Adventure - Asset Pack/Backgrounds/Tilesets/Interior/TilesetWallSimple.png" id="3_ol42h"]
+[ext_resource type="Texture2D" uid="uid://cl2t1cf1wkix" path="res://n_assets/Ninja Adventure - Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png" id="4_4co21"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yk36v"]
 texture = ExtResource("2_jbuhg")

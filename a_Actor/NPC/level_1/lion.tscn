@@ -1,12 +1,13 @@
-[gd_scene load_steps=55 format=3 uid="uid://c5bghfyolulb7"]
+[gd_scene load_steps=73 format=3 uid="uid://c5bghfyolulb7"]
 
 [ext_resource type="Script" uid="uid://f551yihnhnqq" path="res://a_Actor/NPC/level_1/lion.gd" id="1_3q7oh"]
-[ext_resource type="Texture2D" uid="uid://k6cts6gbjcxj" path="res://n_assets/n_Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Special1.png" id="2_smxmx"]
-[ext_resource type="Texture2D" uid="uid://c4xrqy02d71u4" path="res://n_assets/n_Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Special2.png" id="3_uejxr"]
-[ext_resource type="Texture2D" uid="uid://djp7b20oxdchw" path="res://n_assets/n_Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Idle.png" id="4_piqcy"]
-[ext_resource type="Texture2D" uid="uid://f1sr5fpl50mo" path="res://n_assets/n_Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Walk.png" id="5_4fsjf"]
-[ext_resource type="Texture2D" uid="uid://bdt4xcp0540pa" path="res://n_assets/n_Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Attack.png" id="6_5d24n"]
-[ext_resource type="Texture2D" uid="uid://bwgxnlxpmumfo" path="res://n_assets/n_Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Jump.png" id="7_py8br"]
+[ext_resource type="Texture2D" uid="uid://k6cts6gbjcxj" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Special1.png" id="2_smxmx"]
+[ext_resource type="Texture2D" uid="uid://c4xrqy02d71u4" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Special2.png" id="3_uejxr"]
+[ext_resource type="Texture2D" uid="uid://djp7b20oxdchw" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Idle.png" id="4_piqcy"]
+[ext_resource type="Texture2D" uid="uid://f1sr5fpl50mo" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Walk.png" id="5_4fsjf"]
+[ext_resource type="Texture2D" uid="uid://bdt4xcp0540pa" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Attack.png" id="6_5d24n"]
+[ext_resource type="Texture2D" uid="uid://bwgxnlxpmumfo" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/Jump.png" id="7_py8br"]
+[ext_resource type="Texture2D" uid="uid://c4i5t7s4y0c3o" path="res://n_assets/Ninja Adventure - Asset Pack/Actor/Characters/CaveLion2/SeparateAnim/skill2.png" id="8_smxmx"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_x5wmv"]
 radius = 6.0
@@ -23,18 +24,6 @@ region = Rect2(0, 0, 16, 16)
 [sub_resource type="AtlasTexture" id="AtlasTexture_2tb4b"]
 atlas = ExtResource("4_piqcy")
 region = Rect2(0, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ltggh"]
-atlas = ExtResource("4_piqcy")
-region = Rect2(16, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_suu1l"]
-atlas = ExtResource("4_piqcy")
-region = Rect2(32, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_frc1w"]
-atlas = ExtResource("4_piqcy")
-region = Rect2(48, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7ob4q"]
 atlas = ExtResource("5_4fsjf")
@@ -128,6 +117,86 @@ region = Rect2(16, 0, 16, 16)
 atlas = ExtResource("7_py8br")
 region = Rect2(16, 0, 16, 16)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_py8br"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltggh"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(256, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_suu1l"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(256, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frc1w"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(256, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_74cmf"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4pot"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(768, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ie2ug"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(768, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5bv2b"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(768, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ip7c"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_go8mg"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxoqy"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5yxl"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vao7w"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_byvhu"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7e54j"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2aleo"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_smxmx"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uejxr"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_piqcy"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fsjf"]
+atlas = ExtResource("8_smxmx")
+region = Rect2(512, 768, 256, 256)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_utrta"]
 atlas = ExtResource("5_4fsjf")
 region = Rect2(0, 0, 16, 16)
@@ -208,15 +277,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2tb4b")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ltggh")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_suu1l")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_frc1w")
 }],
 "loop": true,
 "name": &"patrol",
@@ -350,7 +410,67 @@ animations = [{
 "name": &"skill_1_up",
 "speed": 7.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_py8br")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltggh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_suu1l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frc1w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_74cmf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a4pot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ie2ug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5bv2b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ip7c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_go8mg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxoqy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5yxl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vao7w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_byvhu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7e54j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2aleo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_smxmx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uejxr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_piqcy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fsjf")
+}],
 "loop": true,
 "name": &"skill_2",
 "speed": 5.0
@@ -429,7 +549,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="lion" type="CharacterBody2D"]
 script = ExtResource("1_3q7oh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -438,3 +558,4 @@ shape = SubResource("CapsuleShape2D_x5wmv")
 [node name="lionSprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_74cmf")
 animation = &"skill_2"
+frame_progress = 0.0520735
